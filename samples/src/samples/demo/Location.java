@@ -1,21 +1,24 @@
 package samples.demo;
 
 public class Location {
-	
-	//attribute declaration
-	private String location;
-	
-	//setter
-	public void setLocation(String location) {
+			
+		//attribute declaration
+		private String location;
 		
-		this.location= location;
-	}
-	
-	//getter
-	public String getLocation() {
+		//setter
+		public void setLocation(String location) {
+			
+			this.location= location;
+		}
 		
-		return location;
+		//getter
+		public String getLocation() {
+			
+			return location;
+			
+		}
 		
-	}
 	
+
+
 }
