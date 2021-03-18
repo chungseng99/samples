@@ -3,18 +3,20 @@ package samples.demo;
 public class Location {
 			
 		//attribute declaration
-		private String location;
+		private String name;
+		private int locationId;
+		private int description;
 		
 		//setter
-		public void setLocation(String location) {
+		public void setLocation(String name) {
 			
-			this.location= location;
+			this.name= name;
 		}
 		
 		//getter
 		public String getLocation() {
 			
-			return location;
+			return name;
 			
 		}
 		
