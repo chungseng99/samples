@@ -5,7 +5,7 @@ public class Location {
 		//attribute declaration
 		private String name;
 		private int locationId;
-		private int description;
+		
 		
 		//setter
 		public void setLocation(String name) {
